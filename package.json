@@ -1,0 +1,19 @@
+{
+  "name": "income-calculator",
+  "version": "1.0.0",
+  "description": "A tool that calculates the average income of a zipcode per US census data",
+  "main": "dataView.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MugsyCarter/Income-Calculator.git"
+  },
+  "author": "Mugsy Carter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MugsyCarter/Income-Calculator/issues"
+  },
+  "homepage": "https://github.com/MugsyCarter/Income-Calculator#readme"
+}
