@@ -33,8 +33,13 @@
       success: function(data, status, xhr){
         console.log('ajax call was a rousing success:', data);
         data.forEach(function(county){
-          console.log(county[0]);
-          countyFilterMaker(county[0]);
+          if (county[0] !== 'NAME') {
+            var $option = $('<option></option>');
+            $option.text(county[0]);
+            $('#county-filter').append($option);
+            console.log(county[0]);
+          }
+          // countyFilterMaker(county[0]);
         });
         // countyFilterMaker();
       },
